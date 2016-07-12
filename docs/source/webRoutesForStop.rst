@@ -1,2 +1,2 @@
-webRoutesForStop.rst
-====================
+webRoutesForStop
+================

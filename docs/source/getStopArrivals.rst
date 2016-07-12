@@ -1,2 +1,2 @@
-getStopArrivals.rst
-===================
+getStopArrivals
+===============

@@ -6,7 +6,11 @@
 Welcome to OASA Telematics API's documentation!
 ===============================================
 
-Contents:
+The api has the following form ::
+   http://telematics.oasa.gr/api/?act=action&p1=parameter1&p2=parameter2
+
+
+Actions:
 
 .. toctree::
    :maxdepth: 2

@@ -1,2 +1,2 @@
-webGetRoutesDetailsAndStops.rst
-===============================
+webGetRoutesDetailsAndStops
+===========================

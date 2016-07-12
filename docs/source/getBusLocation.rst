@@ -1,2 +1,2 @@
-getBusLocation.rst
-==================
+getBusLocation
+==============

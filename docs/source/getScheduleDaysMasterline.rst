@@ -1,2 +1,2 @@
-getScheduleDaysMasterline.rst
-=============================
+getScheduleDaysMasterline
+=========================

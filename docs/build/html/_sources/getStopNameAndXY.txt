@@ -1,2 +1,0 @@
-getStopNameAndXY.rst
-====================

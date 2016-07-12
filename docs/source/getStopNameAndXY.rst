@@ -1,2 +1,2 @@
-getStopNameAndXY.rst
-====================
+getStopNameAndXY
+================

@@ -1,2 +1,2 @@
-getSchedLines.rst
-=================
+getSchedLines
+=============

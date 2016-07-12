@@ -1,2 +1,2 @@
-webGetLines.rst
-===============
+webGetLines
+===========

@@ -1,2 +1,2 @@
-webRouteDetails.rst
-===================
+webRouteDetails
+===============
