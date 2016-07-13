@@ -1,14 +1,16 @@
 webGetLinesWithMLInfo
 =====================
 
-**Api Endpoint:**
+Είναι όμοιο με το webGetLines μόνο που στέλνει δύο παραπάνω στοιχεία
+το ml_code και το sdc_code.
 
+**Api Endpoint:**
 
 ``http://telematics.oasa.gr/api/?act=webGetLinesWithMLInfo``
 
 **Response:**
 
-.. code-block:: json
+.. code-block:: python
 
    [
    {

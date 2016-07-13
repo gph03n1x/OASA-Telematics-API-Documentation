@@ -9,7 +9,7 @@ __pycache__/
 *.so
 
 # Batch Files
-.bat
+*.bat
 
 # Html Graphs
 *.html
