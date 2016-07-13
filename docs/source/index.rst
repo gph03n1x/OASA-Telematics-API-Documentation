@@ -19,14 +19,14 @@ Actions:
    webGetLinesWithMLInfo
    webGetRoutes
    webGetStops
-   getStopArrivals
-   getBusLocation
    webRouteDetails
    webRoutesForStop
+   webGetRoutesDetailsAndStops
+   getStopArrivals
+   getBusLocation
    getScheduleDaysMasterline
    getLinesAndRoutesForMl
    getRoutesForLine
-   webGetRoutesDetailsAndStops
    getMLName
    getLineName
    getRouteName

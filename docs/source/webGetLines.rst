@@ -5,7 +5,6 @@ webGetLines
 
 **Api Endpoint:**
 
-
 ``http://telematics.oasa.gr/api/?act=webGetLines``
 
 **Response:**
