@@ -9,7 +9,7 @@ Welcome to OASA Telematics API's documentation!
 The api has the following form ::
    http://telematics.oasa.gr/api/?act=action&p1=parameter1&p2=parameter2
 
-Μέσα από το `script`_ το οποίο χρησιμοποιούν στο http://telematics.oasa.gr/
+Μέσα από το `script`_ (Script v0.1.1) το οποίο χρησιμοποιούν στο http://telematics.oasa.gr/
 τα requests που έχω τεκμηριώσει ως τώρα είναι **POST** requests τα οποία περνάνε
 τις παραμέτρους στο url .
 
