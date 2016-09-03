@@ -13,6 +13,7 @@ getLinesAndRoutesForMl
 
 ``http://telematics.oasa.gr/api/?act=getLinesAndRoutesForMl&p1=mlcode``
 
+
 **Response:**
 
 .. code-block:: python

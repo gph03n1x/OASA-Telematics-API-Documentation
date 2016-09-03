@@ -14,7 +14,20 @@ The api has the following form ::
 τις παραμέτρους στο url .
 
 
-Actions:
+**Code example: Python**
+
+Χρήση του API μέσω python requests. Το μόνο που αλλάζει είναι το endpoint.
+
+.. code-block:: python
+
+   >>> import requests
+   >>> response = requests.post("http://telematics.oasa.gr/api/?act=getLinesAndRoutesForMl&p1=9")
+   >>> json_response = response.json()
+   >>> print(json_response[0]["line_descr"])
+   'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH'
+
+
+**Actions:**
 
 .. toctree::
    :maxdepth: 2
@@ -38,10 +51,3 @@ Actions:
    getSchedLines
 
 .. _script: http://telematics.oasa.gr/js/script.js
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
