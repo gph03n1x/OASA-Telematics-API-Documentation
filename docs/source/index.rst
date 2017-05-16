@@ -49,5 +49,6 @@ The api has the following form ::
    getRouteName
    getStopNameAndXY
    getSchedLines
+   getClosestStops
 
 .. _script: http://telematics.oasa.gr/js/script.js
