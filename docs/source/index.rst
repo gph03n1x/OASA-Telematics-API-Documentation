@@ -26,7 +26,24 @@ The api has the following form ::
    >>> print(json_response[0]["line_descr"])
    'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH'
 
+**Code example: BASH**
 
+Το ίδιο request με BASH. Πρέπει να είναι εγκατεστημένα το **curl** και το **jq**.
+
+.. code-block:: bash
+
+    $ curl -s "telematics.oasa.gr/api/?act=getLinesAndRoutesForMl&p1=9" | jq '.[].line_descr' 
+    "ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)"
+    
+**Code example: PowerShell**
+
+Και με powershell με χρήση της Invoke-RestMethod.
+
+.. code-block:: powershell
+
+   PS C:\> (Invoke-RestMethod "http://telematics.oasa.gr/api/?act=getLinesAndRoutesForMl&p1=9").line_descr
+   ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)
+       
 **Actions:**
 
 .. toctree::
