@@ -32,7 +32,7 @@ sdc_code: Identifier για το ωράριο που ακολουθεί η γρ�
 
 line_code: Μεταβαλλόμενη τιμή, Πιθανότατα αντιστοιχεί σε κάθε λεωφορείο εν κίνησή, Επίσης φαίνεται να είναι URI.
 
-line_id: Identifier της κάθε γραμμής
+line_id: Unicode formated string Identifier της κάθε γραμμής
 
 line_descr: Unicode formated string, με τον τίτλο της γραμμής, 'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)'
 
