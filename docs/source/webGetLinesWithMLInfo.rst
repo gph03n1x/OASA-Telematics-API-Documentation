@@ -23,3 +23,17 @@ webGetLinesWithMLInfo
    },
    ....
    ]
+
+**Response Breakdown:**
+
+ml_code: Identifier που έχει να κάνει με την περιοχή έναρξης. (Help needed)
+
+sdc_code: Identifier για το ωράριο που ακολουθεί η γραμμή, δες getSchedLines και getScheduleDaysMasterLine
+
+line_code: Μεταβαλλόμενη τιμή, Πιθανότατα αντιστοιχεί σε κάθε λεωφορείο εν κίνησή, Επίσης φαίνεται να είναι URI.
+
+line_id: Identifier της κάθε γραμμής
+
+line_descr: Unicode formated string, με τον τίτλο της γραμμής, 'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)'
+
+line_descr_eng: Ίδιο με το line_descr αλλά ascii formated
