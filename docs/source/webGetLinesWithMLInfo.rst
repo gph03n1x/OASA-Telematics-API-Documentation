@@ -27,6 +27,7 @@ webGetLinesWithMLInfo
 **Response Breakdown:**
 
 ml_code: Identifier που έχει να κάνει με την περιοχή έναρξης. (Help needed)
+Πιθανότατα το ml αντιστοιχεί στο MasterLine.
 
 sdc_code: Identifier για το ωράριο που ακολουθεί η γραμμή, δες getSchedLines και getScheduleDaysMasterLine
 
