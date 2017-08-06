@@ -20,3 +20,13 @@ webGetLines
    },
    ....
    ]
+
+**Response Breakdown:**
+
+Line_Code: Μεταβαλλόμενη τιμή, Πιθανότατα αντιστοιχεί σε κάθε λεωφορείο εν κίνησή, Επίσης φαίνεται να είναι URI.
+
+Line_ID: Unicode formated string Identifier της κάθε γραμμής
+
+Line_Descr: Unicode formated string, με τον τίτλο της γραμμής, 'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)'
+
+Line_Descr_Eng: Ίδιο με το line_descr αλλά ascii formated
