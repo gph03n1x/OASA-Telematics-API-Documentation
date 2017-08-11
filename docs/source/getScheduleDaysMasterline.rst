@@ -1,20 +1,25 @@
 getScheduleDaysMasterline
 =========================
 
-Για να χρησιμοποιηθεί χρειαζόμαστε και την παράμετρο *linecode* που μπορούμε να
+Για να χρησιμοποιηθεί χρειαζόμαστε και την παράμετρο **linecode** που μπορούμε να
 την βρούμε αν φιλτράρουμε τον αριθμό του λεωφορείου που χρειαζόμαστε από τις
 δράσεις webGetLines και webGetLinesWithMLInfo
-Επιστρέφει το sdc_code, identifier για το ποιο πρόγραμμα/ωράριο ακολουθεί η γραμμή, το οποίο χρειάζεται για να κληθεί το getSchedLines function.
 
-Για παράδειγμα το Α1 (linecode=962) που είναι η γραμμή ΠΕΙΡΑΙΑΣ-ΒΟΥΛΑ , έχει διαδρομές
+Επιστρέφει το sdc_code, identifier για το ποιο πρόγραμμα/ωράριο ακολουθεί η γραμμή,
+το οποίο χρειάζεται για να κληθεί το getSchedLines function.
+
+Για παράδειγμα το Α1 (**linecode**=962) που είναι η γραμμή ΠΕΙΡΑΙΑΣ-ΒΟΥΛΑ , έχει διαδρομές
 ΠΕΙΡΑΙΑΣ-ΒΟΥΛΑ και ΒΟΥΛΑ-ΠΕΙΡΑΙΑΣ.
 
 
-**Api Endpoint:**
+Api Endpoint
+------------
 
 ``http://telematics.oasa.gr/api/?act=getScheduleDaysMasterline&p1=linecode``
 
-**Response:**
+
+Response
+--------
 
 .. code-block:: python
 

@@ -4,11 +4,15 @@ getRouteName
 Χρησιμοποιώντας το **routecode** το getRouteName επιστρέφει
 το όνομα της διαδρομής.
 
-**Api Endpoint:**
+
+Api Endpoint
+------------
 
 ``http://telematics.oasa.gr/api/?act=getRouteName&p1=routecode``
 
-**Response:**
+
+Response
+--------
 
 .. code-block:: python
 

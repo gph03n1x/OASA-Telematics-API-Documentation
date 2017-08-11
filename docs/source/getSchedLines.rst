@@ -1,15 +1,19 @@
 getSchedLines
 =============
-Μας επιστρέφει τους χρόνου come και go που φαντάζομαι αντιστοιχούν στην αφετηρία και τέρμα.
+Μας επιστρέφει τους χρόνους come και go που φαντάζομαι αντιστοιχούν στην αφετηρία και τέρμα.
 
 Χρειαζόμαστε **mlcode** , **lineCode** τα οποία μπορούμε να τα βρούμε από το
 webGetLinesWithML και **sdcCode** το οποίο μπορούμε να βρούμε από getScheduleDaysMasterline.
 
-**Api Endpoint:**
+
+Api Endpoint
+------------
 
 ``http://telematics.oasa.gr/api/?act=getSchedLines&p1=mlCode&p2=sdcCode&p3=lineCode``
 
-**Response:**
+
+Response
+--------
 
 ``για http://telematics.oasa.gr/api/?act=getSchedLines&p1=177&p2=93&p3=1079``
 

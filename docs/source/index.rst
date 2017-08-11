@@ -44,7 +44,8 @@ The api has the following form ::
    PS C:\> (Invoke-RestMethod "http://telematics.oasa.gr/api/?act=getLinesAndRoutesForMl&p1=9").line_descr
    ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)
        
-**Actions:**
+Actions
+-------
 
 .. toctree::
    :maxdepth: 2

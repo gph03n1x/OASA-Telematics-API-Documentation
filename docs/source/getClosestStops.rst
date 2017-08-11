@@ -3,11 +3,15 @@ getClosestStops
 
 Χρησιμοποιώντας το **x** και το **y** το getClosestStops επιστρέφει τις κοντινότερες στάσεις
 
-**Api Endpoint:**
+
+Api Endpoint
+------------
 
 ``http://telematics.oasa.gr/api/?act=getClosestStops&p1=x&p2=y``
 
-**Response:**
+
+Response
+--------
 
 .. code-block:: python
 

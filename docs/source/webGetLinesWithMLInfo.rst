@@ -2,13 +2,15 @@ webGetLinesWithMLInfo
 =====================
 
 Είναι όμοιο με το webGetLines μόνο που στέλνει δύο παραπάνω στοιχεία
-το ml_code και το sdc_code.
+το **ml_code** και το **sdc_code**.
 
-**Api Endpoint:**
+Api Endpoint
+------------
 
 ``http://telematics.oasa.gr/api/?act=webGetLinesWithMLInfo``
 
-**Response:**
+Response
+--------
 
 .. code-block:: python
 
@@ -24,17 +26,19 @@ webGetLinesWithMLInfo
    ....
    ]
 
-**Response Breakdown:**
 
-ml_code: Identifier που έχει να κάνει με την περιοχή έναρξης. (Help needed)
+Response Breakdown
+------------------
+
+*ml_code*: Identifier που έχει να κάνει με την περιοχή έναρξης. (Help needed)
 Πιθανότατα το ml αντιστοιχεί στο MasterLine.
 
-sdc_code: Identifier για το ωράριο που ακολουθεί η γραμμή, δες getSchedLines και getScheduleDaysMasterLine
+*sdc_code*: Identifier για το ωράριο που ακολουθεί η γραμμή, δες getSchedLines και getScheduleDaysMasterLine
 
-line_code: Μεταβαλλόμενη τιμή, Πιθανότατα αντιστοιχεί σε κάθε λεωφορείο εν κίνησή, Επίσης φαίνεται να είναι URI.
+*line_code*: Μεταβαλλόμενη τιμή, Πιθανότατα αντιστοιχεί σε κάθε λεωφορείο εν κίνησή, Επίσης φαίνεται να είναι URI.
 
-line_id: Unicode formated string Identifier της κάθε γραμμής
+*line_id*: Unicode formated string Identifier της κάθε γραμμής
 
-line_descr: Unicode formated string, με τον τίτλο της γραμμής, 'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)'
+*line_descr*: Unicode formated string, με τον τίτλο της γραμμής, 'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)'
 
-line_descr_eng: Ίδιο με το line_descr αλλά ascii formated
+*line_descr_eng*: Ίδιο με το line_descr αλλά ascii formated

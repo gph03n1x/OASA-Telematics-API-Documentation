@@ -5,11 +5,14 @@ getMLName
 Για την χρήση αυτής της δράσης χρειάζεται το **mlcode** που το βρίσκουμε από την webGetLinesWithML
 
 
-**Api Endpoint:**
+Api Endpoint
+------------
 
 ``http://telematics.oasa.gr/api/?act=getMLName&p1=mlcode``
 
-**Response:**
+
+Response
+--------
 
 .. code-block:: python
 

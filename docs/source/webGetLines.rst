@@ -3,11 +3,15 @@ webGetLines
 
 Επιστρέφει τα στοιχεία σχετικά με όλες τις γραμμές των λεωφορείων.
 
-**Api Endpoint:**
+
+Api Endpoint
+------------
 
 ``http://telematics.oasa.gr/api/?act=webGetLines``
 
-**Response:**
+
+Response
+--------
 
 .. code-block:: python
 
@@ -21,12 +25,13 @@ webGetLines
    ....
    ]
 
+
 **Response Breakdown:**
 
-Line_Code: Μεταβαλλόμενη τιμή, Πιθανότατα αντιστοιχεί σε κάθε λεωφορείο εν κίνησή, Επίσης φαίνεται να είναι URI.
+*Line_Code*: Μεταβαλλόμενη τιμή, Πιθανότατα αντιστοιχεί σε κάθε λεωφορείο εν κίνησή, Επίσης φαίνεται να είναι URI.
 
-Line_ID: Unicode formated string Identifier της κάθε γραμμής
+*Line_ID*: Unicode formated string Identifier της κάθε γραμμής
 
-Line_Descr: Unicode formated string, με τον τίτλο της γραμμής, 'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)'
+*Line_Descr*: Unicode formated string, με τον τίτλο της γραμμής, 'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)'
 
-Line_Descr_Eng: Ίδιο με το line_descr αλλά ascii formated
+*Line_Descr_Eng*: Ίδιο με το line_descr αλλά ascii formated
