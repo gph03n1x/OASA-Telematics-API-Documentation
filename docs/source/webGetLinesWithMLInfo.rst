@@ -35,10 +35,11 @@ Response Breakdown
 
 *sdc_code*: Identifier για το ωράριο που ακολουθεί η γραμμή, δες getSchedLines και getScheduleDaysMasterLine
 
-*line_code*: Μεταβαλλόμενη τιμή, Πιθανότατα αντιστοιχεί σε κάθε λεωφορείο εν κίνησή, Επίσης φαίνεται να είναι URI.
+*Line_Code*: Το Line_Code είναι ο μοναδικός αριθμός που ορίζει το software της τηλεματικής στην κάθε γραμμή.
+Βάσει αυτού του αριθμού γίνονται όλοι συσχετισμοί στην βάση δεδομένων του ΟΑΣΑ. Επίσης φαίνεται να είναι URI.
 
-*line_id*: Unicode formated string Identifier της κάθε γραμμής
+*line_ID*: Unicode formatted string το οποίο είναι ο αριθμός της γραμμής
 
-*line_descr*: Unicode formated string, με τον τίτλο της γραμμής, 'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)'
+*line_descr*: Unicode formatted string, με τον τίτλο της γραμμής, 'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)'
 
-*line_descr_eng*: Ίδιο με το line_descr αλλά ascii formated
+*line_descr_eng*: Ίδιο με το line_descr αλλά ascii formatted

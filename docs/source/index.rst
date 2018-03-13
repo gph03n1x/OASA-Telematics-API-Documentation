@@ -39,7 +39,7 @@ The api has the following form ::
 
 Και με powershell με χρήση της Invoke-RestMethod.
 
-.. code-block:: powershell
+.. code-block:: bash
 
    PS C:\> (Invoke-RestMethod "http://telematics.oasa.gr/api/?act=getLinesAndRoutesForMl&p1=9").line_descr
    ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)
@@ -50,13 +50,6 @@ Actions
 .. toctree::
    :maxdepth: 2
 
-   webGetLines
-   webGetLinesWithMLInfo
-   webGetRoutes
-   webGetStops
-   webRouteDetails
-   webRoutesForStop
-   webGetRoutesDetailsAndStops
    getStopArrivals
    getBusLocation
    getScheduleDaysMasterline
@@ -68,5 +61,12 @@ Actions
    getStopNameAndXY
    getSchedLines
    getClosestStops
+   webGetLines
+   webGetLinesWithMLInfo
+   webGetRoutes
+   webGetStops
+   webRouteDetails
+   webRoutesForStop
+   webGetRoutesDetailsAndStops
 
 .. _script: http://telematics.oasa.gr/js/script.js

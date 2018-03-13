@@ -30,10 +30,11 @@ Response
 Response Breakdown
 ------------------
 
-*Line_Code*: Μεταβαλλόμενη τιμή, Πιθανότατα αντιστοιχεί σε κάθε λεωφορείο εν κίνησή, Επίσης φαίνεται να είναι URI.
+*Line_Code*: Το Line_Code είναι ο μοναδικός αριθμός που ορίζει το software της τηλεματικής στην κάθε γραμμή.
+Βάσει αυτού του αριθμού γίνονται όλοι συσχετισμοί στην βάση δεδομένων του ΟΑΣΑ. Επίσης φαίνεται να είναι URI.
 
-*Line_ID*: Unicode formated string Identifier της κάθε γραμμής
+*line_ID*: Unicode formatted string το οποίο είναι ο αριθμός της γραμμής
 
-*Line_Descr*: Unicode formated string, με τον τίτλο της γραμμής, 'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)'
+*Line_Descr*: Unicode formatted string, με τον τίτλο της γραμμής, 'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)'
 
-*Line_Descr_Eng*: Ίδιο με το line_descr αλλά ascii formated
+*Line_Descr_Eng*: Ίδιο με το line_descr αλλά ascii formatted
