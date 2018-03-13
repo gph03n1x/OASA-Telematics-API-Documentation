@@ -43,7 +43,17 @@ The api has the following form ::
 
    PS C:\> (Invoke-RestMethod "http://telematics.oasa.gr/api/?act=getLinesAndRoutesForMl&p1=9").line_descr
    ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)
-       
+
+
+
+**Not Implemented yet**
+
+* :doc:`getEsavlDirections`
+* :doc:`getLinesAndRoutesForMlandLCode`
+* :doc:`getPlaces`
+* :doc:`getPlacesTypes`
+
+
 Actions
 -------
 
@@ -68,5 +78,9 @@ Actions
    webRouteDetails
    webRoutesForStop
    webGetRoutesDetailsAndStops
+   webGetLangs
+   webGetMasterLines
+
+
 
 .. _script: http://telematics.oasa.gr/js/script.js
