@@ -12,7 +12,7 @@ Api Endpoint
 Response
 --------
 
-``για http://telematics.oasa.gr/api/?act=getSchedLines&p1=177&p2=93&p3=1079``
+``για http://telematics.oasa.gr/api/?act=getDailySchedule&line_code=1079``
 
 .. code-block:: python
 
