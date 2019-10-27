@@ -37,4 +37,4 @@ Response Breakdown
 
 *LineDescr*: Unicode formatted string, με τον τίτλο της γραμμής, 'ΠΛΑΤΕΙΑ ΚΑΝΙΓΓΟΣ - ΓΚΥΖH(ΚΥΚΛΙΚΗ)'
 
-*LineDescrEng*: Ίδιο με το line_descr αλλά ascii formatted
+*LineDescrEng*: Ίδιο με το LineDescr αλλά ascii formatted
