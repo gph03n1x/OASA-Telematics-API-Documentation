@@ -1,4 +1,5 @@
 .. _getPlacesTypes:
+
 getPlacesTypes
 ==============
 
@@ -14,8 +15,7 @@ Api Endpoint
 Response
 --------
 
-.. code-block:: python
+.. code-block:: json
 
    null
-
 

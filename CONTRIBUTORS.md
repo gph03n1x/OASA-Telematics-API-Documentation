@@ -4,3 +4,6 @@
 * [panoukos41](https://github.com/panoukos41)
 * [Alatiera](https://github.com/alatiera)
 * Κωνσταντίνος Αρβανιτάκης
+* [Manolis Papadeas](https://github.com/OverloadedOrama)
+* [Chariton Charitonidis](https://github.com/haritonch)
+* [Diomidis Spinellis](https://github.com/dspinellis)

@@ -62,11 +62,17 @@ Actions
 
    getStopArrivals
    getBusLocation
+   getDailySchedule
+   getEsavlDirections
    getScheduleDaysMasterline
    getLinesAndRoutesForMl
    getRoutesForLine
    getMLName
    getLineName
+   getLinesAndRoutesForMl
+   getLinesAndRoutesForMlandLCode
+   getPlaces
+   getPlacesTypes
    getRouteName
    getStopNameAndXY
    getSchedLines
@@ -80,6 +86,7 @@ Actions
    webGetRoutesDetailsAndStops
    webGetLangs
    webGetMasterLines
+
 
 
 

@@ -1,4 +1,5 @@
 .. _getPlaces:
+
 getPlaces
 =========
 
@@ -14,7 +15,7 @@ Api Endpoint
 Response
 --------
 
-.. code-block:: python
+.. code-block:: json
 
    null
 
