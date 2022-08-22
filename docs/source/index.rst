@@ -63,6 +63,7 @@ Actions
    getStopArrivals
    getBusLocation
    getDailySchedule
+   getDailyScheduleMobile
    getEsavlDirections
    getScheduleDaysMasterline
    getLinesAndRoutesForMl
