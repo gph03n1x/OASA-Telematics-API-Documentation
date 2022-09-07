@@ -7,3 +7,4 @@
 * [Manolis Papadeas](https://github.com/OverloadedOrama)
 * [Chariton Charitonidis](https://github.com/haritonch)
 * [Diomidis Spinellis](https://github.com/dspinellis)
+* [Alexander Roumeliotis](https://github.com/alexroumi)
